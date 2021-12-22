@@ -1,0 +1,127 @@
+
+<html lang="fr">
+<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+    
+		<title>Portfolio</title>
+	</head>
+	<body>
+
+    <img src="img/profile.png" width="150px" height="200px" alt="profile">
+      
+    <div class="formulaire">
+      <div class="row col-md-6 col-md-offset-3">
+        <div class="panel panel-primary">
+          <div class="panel-heading text-center">
+            <h1>Un projet? Une question? Contactez-moi!</h1>
+            <h2>Formulaire de contact</h2>
+          </div>
+          <div class="panel-body">
+            <form action="connect.php" method="post">
+              <div class="form-group">
+                <label for="nom">Nom</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="nom"
+                  name="nom"
+                />
+              </div>
+              <div class="form-group">
+                <label for="prenom">Prénom</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="prenom"
+                  name="prenom"
+                />
+              </div>
+              <div class="form-group">
+                <label for="genre">Genre</label>
+                <div>
+                  <label for="homme" class="radio-inline"
+                    ><input
+                      type="radio"
+                      name="genre"
+                      value="h"
+                      id="homme"
+                    />Homme</label
+                  >
+                  <label for="femme" class="radio-inline"
+                    ><input
+                      type="radio"
+                      name="genre"
+                      value="f"
+                      id="femme"
+                    />Femme</label
+                  >
+                  <label for="autre" class="radio-inline"
+                    ><input
+                      type="radio"
+                      name="genre"
+                      value="a"
+                      id="autre"
+                    />Autre</label
+                  >
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="email"
+                  name="email"
+                />
+              </div>
+              <div class="form-group">
+                <label for="password">Mot de passe</label>
+                <input
+                  type="password"
+                  class="form-control"
+                  id="password"
+                  name="password"
+                />
+              </div>
+              <div class="form-group">
+                <label for="number">Numéro de téléphone</label>
+                <input
+                  type="number"
+                  class="form-control"
+                  id="number"
+                  name="number"
+                />
+              </div>
+              <input type="submit" class="btn btn-primary" />
+            </form>
+          </div>  
+        </div>
+      </div>
+    </div>
+    
+  
+        
+
+    <footer>
+			<div class="colonne">
+				<h3>Mes services</h3>
+				<p>Conception de site web</p>
+				<p>Conception d'application</p>
+				<p>Création d'aspects graphiques de site</p>
+			</div>
+			<div class="colonne">
+				<h3>Mon entreprise</h3>
+				<p>Freelance</p>
+			</div>
+			<div class="colonne">
+				<h3>Mes contacts</h3>
+				<p>tiffanyengoung24@gmail.com</p>
+				<p>0667475793</p>
+				<p>https://www.linkedin.com/in/tiffany-engouang-12a6041b5/</p>
+			</div>
+		</footer>
+</body>
+</html>
